@@ -1,6 +1,6 @@
 # CO₂ Solubility Prediction in Ionic Liquids Using Machine Learning
 
-## 🌍 Project Overview
+## Project Overview
 
 This project focuses on predicting the **solubility of CO₂ in ionic liquids** using **molecular descriptors** derived from SMILES strings. It combines **chemistry** and **machine learning** to support carbon capture research.
 
@@ -8,7 +8,7 @@ We extract meaningful features from ionic compound structures and train ML model
 
 ---
 
-## 🧪 Problem Statement
+## Problem Statement
 
 > **Goal:** Predict the solubility of CO₂ in ionic liquids given:
 > - Molecular structure of cation and anion (SMILES)
@@ -18,7 +18,7 @@ Understanding and improving solubility predictions can help design better solven
 
 ---
 
-## 📊 Features Used
+## Features Used
 
 Molecular descriptors were generated using RDKit:
 
@@ -30,20 +30,20 @@ Molecular descriptors were generated using RDKit:
 
 ---
 
-## 🧠 ML Models
+## ML Models
 
-### ✅ Random Forest Regressor
+### Random Forest Regressor
 - Captures non-linear patterns
 - Robust to outliers
 - Feature importance analysis
 - `n_estimators=1000`
 
-### 🚀 Gradient Boosting (XGBoost, LightGBM)
+### Gradient Boosting (XGBoost, LightGBM)
 - Improved performance in many regression problems
 - Considered for future enhancement
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 
